@@ -1,3 +1,5 @@
+#TODO
+
 We'll be using express to setup servers.  We will install express via npm and use AJAX (part of jquery)
 Basic steps:
 set up node/express
@@ -16,7 +18,8 @@ set up basics for html/js/jq project:
 set up a GET route on server
 create a function to GET info from server
 use an AJAX request in this function using the following pattern:
-```
+
+```javaScript
 $.ajax({
     type: 'GET',
     url: 'URLFORGETROUTE'
